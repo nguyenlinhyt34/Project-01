@@ -15,11 +15,8 @@ body {
   height: 100vh;
   background-color: #e6f0ff;
   color: #fff;
-  line-height: 50px;
 }
 .content {
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 .navbar {
@@ -27,12 +24,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  padding: 38px;
+  padding: 41px 0;
+  margin: 0 20%;
 }
+
 .navbar ul {
   list-style: none;
   display: flex;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .navbar .sso {
   display: flex;
@@ -49,7 +48,7 @@ body {
 }
 .navbar ul a {
   font-family: "Poppins", sans-serif;
-  width: 371px;
+  /* width: 371px; */
   height: 21px;
   opacity: 1;
   padding: 8px 1.4rem;
@@ -62,30 +61,34 @@ body {
   margin-right: 10px;
 }
 .btn {
-  height: 40px;
+  height: 64;
   font-weight: 500;
-  min-width: 98px;
+  min-width: 64px;
   color: #ffffff;
   background: #0f1b4c;
   border-radius: 8px;
-  padding: 5px 16px;
+  padding: 13px 20px;
 }
+
 .header-content {
-  display: inline-block;
-  max-width: 559px;
-  max-height: 371px;
-  margin-left: 165px;
+  display: flex;
+  align-items: center;
+  margin: 0 20%;
 }
-.img.house {
-  display: inline-flex;
-  width: 50%;
+.img-house {
+  display: flex;
 }
 .header-content p {
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
-  color: #687690;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgb(104, 118, 144);
 }
 .header-content h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 64px;
   line-height: 76px;
+  font-weight: bold;
   color: #000336;
 }
